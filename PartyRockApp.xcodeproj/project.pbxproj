@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3E956A051FCE0D400072EA10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A041FCE0D400072EA10 /* AppDelegate.swift */; };
-		3E956A071FCE0D400072EA10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A061FCE0D400072EA10 /* ViewController.swift */; };
+		3E956A071FCE0D400072EA10 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A061FCE0D400072EA10 /* MainVC.swift */; };
 		3E956A0A1FCE0D400072EA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E956A081FCE0D400072EA10 /* Main.storyboard */; };
 		3E956A0C1FCE0D400072EA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E956A0B1FCE0D400072EA10 /* Assets.xcassets */; };
 		3E956A0F1FCE0D400072EA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E956A0D1FCE0D400072EA10 /* LaunchScreen.storyboard */; };
+		3E956A1D1FCE1E970072EA10 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E956A1C1FCE1E970072EA10 /* still time.ttf */; };
+		3E956A1F1FCE20540072EA10 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A1E1FCE20540072EA10 /* VideoVC.swift */; };
+		3E956A211FCF1AAC0072EA10 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A201FCF1AAC0072EA10 /* PartyCell.swift */; };
+		3E956A231FCF28A10072EA10 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E956A221FCF28A10072EA10 /* PartyRock.swift */; };
+		3E956A251FCF49A00072EA10 /* champignonaltswash.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E956A241FCF49A00072EA10 /* champignonaltswash.ttf */; };
+		3E956A271FCF49D70072EA10 /* Champignon.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E956A261FCF49D60072EA10 /* Champignon.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E956A011FCE0D400072EA10 /* PartyRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E956A041FCE0D400072EA10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E956A061FCE0D400072EA10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E956A061FCE0D400072EA10 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3E956A091FCE0D400072EA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E956A0B1FCE0D400072EA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E956A0E1FCE0D400072EA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E956A101FCE0D400072EA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E956A1C1FCE1E970072EA10 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		3E956A1E1FCE20540072EA10 /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		3E956A201FCF1AAC0072EA10 /* PartyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		3E956A221FCF28A10072EA10 /* PartyRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
+		3E956A241FCF49A00072EA10 /* champignonaltswash.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = champignonaltswash.ttf; sourceTree = "<group>"; };
+		3E956A261FCF49D60072EA10 /* Champignon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Champignon.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,52 @@
 		3E956A031FCE0D400072EA10 /* PartyRockApp */ = {
 			isa = PBXGroup;
 			children = (
+				3E956A191FCE153A0072EA10 /* Files */,
+				3E956A181FCE15330072EA10 /* Controller */,
+				3E956A171FCE152B0072EA10 /* View */,
+				3E956A161FCE15260072EA10 /* Model */,
 				3E956A041FCE0D400072EA10 /* AppDelegate.swift */,
-				3E956A061FCE0D400072EA10 /* ViewController.swift */,
+				3E956A0D1FCE0D400072EA10 /* LaunchScreen.storyboard */,
 				3E956A081FCE0D400072EA10 /* Main.storyboard */,
 				3E956A0B1FCE0D400072EA10 /* Assets.xcassets */,
-				3E956A0D1FCE0D400072EA10 /* LaunchScreen.storyboard */,
 				3E956A101FCE0D400072EA10 /* Info.plist */,
 			);
 			path = PartyRockApp;
+			sourceTree = "<group>";
+		};
+		3E956A161FCE15260072EA10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E956A221FCF28A10072EA10 /* PartyRock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E956A171FCE152B0072EA10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E956A201FCF1AAC0072EA10 /* PartyCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E956A181FCE15330072EA10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E956A061FCE0D400072EA10 /* MainVC.swift */,
+				3E956A1E1FCE20540072EA10 /* VideoVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E956A191FCE153A0072EA10 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E956A241FCF49A00072EA10 /* champignonaltswash.ttf */,
+				3E956A261FCF49D60072EA10 /* Champignon.otf */,
+				3E956A1C1FCE1E970072EA10 /* still time.ttf */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +173,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E956A251FCF49A00072EA10 /* champignonaltswash.ttf in Resources */,
 				3E956A0F1FCE0D400072EA10 /* LaunchScreen.storyboard in Resources */,
+				3E956A1D1FCE1E970072EA10 /* still time.ttf in Resources */,
 				3E956A0C1FCE0D400072EA10 /* Assets.xcassets in Resources */,
 				3E956A0A1FCE0D400072EA10 /* Main.storyboard in Resources */,
+				3E956A271FCF49D70072EA10 /* Champignon.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E956A071FCE0D400072EA10 /* ViewController.swift in Sources */,
+				3E956A1F1FCE20540072EA10 /* VideoVC.swift in Sources */,
+				3E956A071FCE0D400072EA10 /* MainVC.swift in Sources */,
+				3E956A231FCF28A10072EA10 /* PartyRock.swift in Sources */,
+				3E956A211FCF1AAC0072EA10 /* PartyCell.swift in Sources */,
 				3E956A051FCE0D400072EA10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
